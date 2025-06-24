@@ -11,4 +11,4 @@ quantidade = 3
 
 preco_total = preco_unitario * quantidade
 
-print(f'Nome do produto: {nome_do_produto}\nPreço unitário: {preco_unitario}\nQuantidade: {quantidade}\nPreço total: {preco_total}')
+print(f'Nome do produto: {nome_do_produto}\nPreço unitário: R$ {preco_unitario:.2f}\nQuantidade: {quantidade}\nPreço total: {preco_total:.2f}')

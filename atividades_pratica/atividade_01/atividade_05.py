@@ -13,4 +13,4 @@ try:
     print(f"DIFERENCA = {DIFERENCA}")
 
 except ValueError:
-    print("Digite um número!")
+    print("Digite um número inteiro!")
