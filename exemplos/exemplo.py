@@ -1,15 +1,5 @@
-# nome = "Aline"  # String
-_nome = "Aline"  # String
-# idade = 30  # Inteiro
-# idade, altura = 30, 1.65  # Inteiro, Float
-idade_1, altura = 30, 1.65  # Inteiro, Float
-# altura = 1.65   # Float
-contador = 0
-contador += 1
-contador += 1
-# contador += 5
-# contador = 5
-Contador = 5
+x = 5   # x é
 
-print(contador)
-print(Contador)
+x = "hello" # x é string
+
+x = 3.14    # é float
