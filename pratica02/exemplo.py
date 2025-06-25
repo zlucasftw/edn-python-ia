@@ -1,7 +1,5 @@
-nome = "Lucas"
-idade = 25
-print("Meu nome é " + nome + " e eu tenho " + str(idade) + " anos.")
+pi = 1.14159265
 
-print(f"Meu nome é {nome} e eu tenho {idade} anos.")    # f-strings
-
-print("Meu nome é {} e eu tenho {} anos.".format(nome, idade))
+# print(f"O valor de pi com duas casas decimais é {pi:.2f}")
+# print(f"O valor de pi com cinco casas decimais é {pi:.5f}")
+print(f"O valor de pi com quatro casas decimais é {pi:.4f}")
