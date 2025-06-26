@@ -1,0 +1,42 @@
+"""
+Crie um programa que converta temperaturas entre Celsius, Fahrenheit e Kelvin.
+O usuário deve informar a temperatura,
+a unidade de origem e a unidade para qual deseja converter.
+Celsius para Fahrenheit: F = (
+"""
+
+# Solicitar a temperatura ao usuário
+temperatura = float(input("Digite a temperatura: "))
+
+# Fornecer as escalas
+origem = input("Insira a unidade de origem (C, F, K): ").upper()
+destino = input("Insira a unidade de destino (C, F, K): ").upper()
+
+# Conversão da temperatura
+# Escala de origem é a mesma do destino
+if origem == destino:
+    resultado = temperatura
+
+# Conversão quando a origem for Celsius (C)
+elif origem == "C":
+    if destino == "F":
+        resultado = (temperatura * 1.8) + 32 # origem C, destino F
+    else:
+        resultado = temperatura + 273.15 # origem C, destino K
+
+# Conversão quando a origem for Fahrenheit (F)
+elif origem == "F":
+    if destino == "C":
+        resultado = (temperatura - 32) / 1.8 # origem F, destino C
+    else:
+        resultado = ((temperatura - 32) * 1.8) + 273.15
+
+# Conversão quando a origem for Kelvin (K)
+else:
+   if destino == "C":
+       resultado = temperatura - 273.15
+   else:
+       resultado = ((temperatura - 273.15) * 1.8) + 32
+
+# Exibição da conversão
+print(f"{temperatura} {origem} é igual a {resultado:.1f} {destino}")
