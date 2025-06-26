@@ -1,5 +1,15 @@
-pi = 1.14159265
+# Verificando a maioridade com if, else e elif
 
-# print(f"O valor de pi com duas casas decimais é {pi:.2f}")
-# print(f"O valor de pi com cinco casas decimais é {pi:.5f}")
-print(f"O valor de pi com quatro casas decimais é {pi:.4f}")
+idade =  int(input("Digite a sua idade: "))
+
+if idade >= 18:
+    print("Você é maior de idade.")
+elif idade >= 12:
+    print("Você é adolescente.")
+elif idade >= 4:
+    # print("Você é adolescente.")
+    print("Você é criança.")
+else:
+    # print("Você não é menor de idade.")
+    print("Você é um bebê.")
+
