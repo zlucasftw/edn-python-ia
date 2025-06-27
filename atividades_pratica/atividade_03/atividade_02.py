@@ -18,10 +18,11 @@ try:
 
     idade = int(input("Digite sua idade: "))
 
-    if idade >= 60 : print("Idoso")
-    elif idade >= 18 : print("Adulto")
-    elif idade >= 13 : print("Adolescente")
-    else: print("Criança")
+    if idade    >= 60   : print("Idoso")
+    elif idade  >= 18   : print("Adulto")
+    elif idade  >= 13   : print("Adolescente")
+    elif idade  >= 0    : print("Criança")
+    else: print("Idade inválida!")
 
 except ValueError:
     print("Digite um número inteiro!")

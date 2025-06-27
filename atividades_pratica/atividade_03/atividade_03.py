@@ -20,9 +20,9 @@ try:
 
     imc = peso_em_kg / (altura_em_metros * altura_em_metros)
 
-    classificacao = "Classificação: "
+    classificacao = "Classificação:"
     if imc < 18.5:
-        print(f"{classificacao} Sobrepeso")
+        print(f"{classificacao} Abaixo do peso")
     elif imc < 25:
         print(f"{classificacao} Peso normal")
     elif imc < 30:
