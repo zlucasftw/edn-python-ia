@@ -2,7 +2,13 @@
 Crie um programa que converta temperaturas entre Celsius, Fahrenheit e Kelvin.
 O usuário deve informar a temperatura,
 a unidade de origem e a unidade para qual deseja converter.
-Celsius para Fahrenheit: F = (
+
+Celsius para Fahrenheit: °F = (°C * 1.8) + 32
+Fahrenheit para Celsius: °C = (°F - 32) / 1.8
+Celsius para Kelvin: K = °C + 273.15
+Kelvin para Celsius: °C = K - 273.15
+Fahrenheit para kelvin K = (5/9 x (ºF - 32)) + 273,15
+Kelvin para Fahrenheit: F = (1.8 x (k -273.15) +32)
 """
 
 # Solicitar a temperatura ao usuário
