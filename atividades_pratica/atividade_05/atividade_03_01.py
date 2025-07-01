@@ -13,4 +13,16 @@ esperada: preço do produto (exemplo: 250.75) e o percentual de desconto
 (exemplo: 10).
 """
 
-def calcula_preco_final()
+def calcula_preco_final(preco_original : float, percentual_desconto : float):
+    return preco_original - ((preco_original / 100) * percentual_desconto)
+
+
+try:
+
+    preco_produto = float(input("Digite o preço do produto: "))
+    desconto = float(input("Digite o percentual de desconto: "))
+
+    print(f"Preço final é de: R$ {calcula_preco_final(preco_produto, desconto):.2f}")
+
+except ValueError:
+    print("Digite um valor numérico!")
