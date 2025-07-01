@@ -17,6 +17,7 @@ float: O valor da gorjeta calculada
 def calcula_gorjeta(valor_conta, porcentagem_gorjeta):
     return (valor_conta / 100) * porcentagem_gorjeta
 
+
 total = 100
 porcentagem = 10
 
