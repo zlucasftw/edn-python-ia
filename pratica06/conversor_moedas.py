@@ -47,8 +47,12 @@ def obter_cotacao(moeda):
         return f"Moeda não encontrada ou não suportada"
 
 
+def main():
+    moeda = input("Digite o código da moeda desejada (USD, EUR, GBP): ")
+    print("\nObtendo cotação...")
+    resultado = obter_cotacao(moeda)
+    print(resultado)
 
-moeda = input("Digite o código da moeda desejada (USD, EUR, GBP): ")
-print("\nObtendo cotação...")
-resultado = obter_cotacao(moeda)
-print(resultado)
+
+if __name__ == "__main__":
+    main()

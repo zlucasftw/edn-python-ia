@@ -7,4 +7,4 @@ AwesomeAPI para obter os dados de cotação.
 """
 
 
-
+def consulta_cotacao
