@@ -40,7 +40,7 @@ Para Windows:
 ```
 Para Linux/MAC:
 ```bash
-source .venv/bin/\Activate
+source .venv/bin/Activate
 ```
 
 3. Instale as dependências necessárias:
