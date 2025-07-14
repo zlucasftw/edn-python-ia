@@ -4,7 +4,6 @@ Este repositório contém os exercícios e práticas desenvolvidas durante o mó
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
 ## Exercícios e Correções
 
@@ -12,13 +11,13 @@ A tabela abaixo apresenta as pastas de exercícios realizados e suas respectivas
 
 | Exercícios | Correções do Professor |
 |------------|------------------------|
-| [Prática 1](./exercicios/pratica1/) | [Correções Prática 1](./correcoes/pratica1/) |
-| [Prática 2](./exercicios/pratica2/) | [Correções Prática 2](./correcoes/pratica2/) |
-| [Prática 3](./exercicios/pratica3/) | [Correções Prática 3](./correcoes/pratica3/) |
-| [Prática 4](./exercicios/pratica4/) | [Correções Prática 4](./correcoes/pratica4/) |
-| [Prática 5](./exercicios/pratica5/) | [Correções Prática 5](./correcoes/pratica5/) |
-| [Prática 6](./exercicios/pratica6/) | [Correções Prática 6](./correcoes/pratica6/) |
-| [Prática 7](./exercicios/pratica7/) | [Correções Prática 7](./correcoes/pratica7/) |
+| [Prática 1](./atividades_pratica/atividade_01/) | [Correções Prática 1](./correcao_professor/atividade_01/) |
+| [Prática 2](./atividades_pratica/atividade_02/) | [Correções Prática 2](./correcao_professor/atividade_02/) |
+| [Prática 3](./atividades_pratica/atividade_03/) | [Correções Prática 3](./pratica03/) |
+| [Prática 4](./atividades_pratica/atividade_04/) | [Correções Prática 4](./pratica04/) |
+| [Prática 5](./atividades_pratica/atividade_05/) | [Correções Prática 5](./pratica05/) |
+| [Prática 6](./atividades_pratica/atividade_06/) | [Correções Prática 6](./pratica06/) |
+| [Prática 7](./atividades_pratica/atividade_07/) | [Correções Prática 7](./pratica07/) |
 
 ## Configuração e Execução
 
