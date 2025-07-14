@@ -33,6 +33,7 @@ python -m venv .venv
 ```
 
 2. Ative o ambiente virtual (.venv):
+
 Para Windows:
 ```bash
 .venv\Scripts\Activate
