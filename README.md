@@ -27,14 +27,29 @@ git clone https://github.com/zlucasftw/edn-python-ia.git
 cd edn-python-ia
 ```
 
-2. Instale as dependências necessárias:
+2. Crie um ambiente virtual (.venv):
 ```bash
-pip install numpy pandas matplotlib
+python -m venv .venv
 ```
 
-3. Execute os scripts Python:
+2. Ative o ambiente virtual (.venv):
+Para Windows:
 ```bash
-python exercicios/pratica1/exercicio1.py
+.venv\Scripts\Activate
+```
+Para Linux/MAC:
+```bash
+source .venv/bin/\Activate
+```
+
+3. Instale as dependências necessárias:
+```bash
+pip install pandas
+```
+
+4. Execute os scripts Python:
+```bash
+python atividade_pratica/atividade_01/exercicio_01.py
 ```
 
 ## Sobre o Projeto
